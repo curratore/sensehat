@@ -13,11 +13,11 @@ The Sense HAT has an 8×8 RGB LED matrix, a five-button joystick and includes th
 
 # Current Support
 
-[x] 8x8 RGB LED Matrix
-[] Gyroscope
-[] Accelerometer
-[] Magnetometer
-[] Temperature
-[] Barometric pressure
-[] Humidity
+- [X] 8x8 RGB LED Matrix
+- [ ] Gyroscope
+- [ ] Accelerometer
+- [ ] Magnetometer
+- [ ] Temperature
+- [ ] Barometric pressure
+- [ ] Humidity
 
