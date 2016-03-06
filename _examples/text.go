@@ -55,14 +55,16 @@ func main() {
 	// B: 0,
 	// })
 
-	device.SetAllPixels(&sensehat.Pixel{
-		R: 0,
-		G: 0,
-		B: 0,
-	})
+	device.ClearScreen()
 
 	var y = 0
 	for range time.Tick(time.Second * 10) {
+
+		if y >= 64 {
+			y = 0
+			device.ClearScreen()
+		}
+
 		for i := 0; i < 8; i++ {
 
 			rr, gg, bb := colorful.FastHappyColor().RGB255()
